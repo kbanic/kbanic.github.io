@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html lang="hr">
+<head>
+
+	<title>Obrazac za pretraživanje</title>
+	<link rel="stylesheet" type="text/css" href="dizajn.css" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Klara Banić" />
+
+</head>
+
+
+<body>
+
+<div class="wrapper">
+	<header>
+	  <a href="index.html">
+	  <div>
+	  <h1 class="centered_header_text">NAJPOZNATIJI HRVATSKI KIPARI</h1>
+	  </div>
+	  <div class="naslovna">
+	  <img src="header.jpg" alt="djelo kipara" />
+	  </div>
+	  </a>
+	</header>
+
+	<div class="content">
+		<nav>
+		<h3>NAVIGACIJA</h3>
+		<p></p>
+		<ul>
+		  <li><a href="index.html">Početna stranica</a></li>
+		  <li><a href="obrazac.html">Pretraga</a></li>
+		  <li><a href="http://www.fer.unizg.hr/predmet/or">Otvoreno računarstvo</a></li>
+		  <li><a href="http://www.fer.unizg.hr" target="_blank">FER</a></li>
+		  <li><a href="podaci.xml">Podaci</a></li>
+		  <li><a href="mailto:klara.banic@fer.hr">E-mail</a></li>
+		</ul>
+		</nav>
+
+
+	<main>
+	<div class="pola">
+	  <div class="tekstic">
+		<h2>Obrazac za pretraživanje</h2>
+		<p></p><br>
+	  </div>
+	</div>
+		<form action="pretraga.php" method="post">
+			<div class="inputpolje">
+				<label>Ime</label>
+				<input type="text" class="input" name="ime">
+			</div>
+			<div class="inputpolje">
+				<label>Prezime</label>
+				<input type="text" class="input" name="prezime">
+			</div>
+			<div class="inputpolje">
+				<div class="nazivlijevi">
+				<label>Spol</label>
+				</div>
+				<div class="radio">
+					  <input type="radio" id="spolm" name="spol" value="m">
+					  <label>muški</label>
+					  <input type="radio" id="spolz" name="spol" value="ž">
+					  <label>ženski</label>
+				</div>
+			</div>
+			
+			<div class="inputpolje">
+				<div class="nazivlijevo">
+				<label id="zanim">Ostala zanimanja</label>
+				</div>
+				<div class="multipleselect">
+					<select name="zanimanja[]" multiple id="zanimanja" size="3">
+					  <option value="arhitekt">arhitekt</option>
+					  <option value="keramicar">keramičar</option>
+					  <option value="profesor">profesor</option>
+					  <option value="slikar">slikar</option>
+					</select>
+				</div>
+			</div>
+			<div class="inputpolje">
+				<label>Mjesto rođenja</label>
+				<input type="text" class="input" name="mjestorod" >
+			</div>
+			<div class="inputpolje">
+				<label>Poštanski broj mjesta rođenja</label>
+				<input type="text" class="input" name="pbrmjestorod" >
+			</div>
+
+			<div class="inputpolje">
+				<label id ="zemlje">Zemlje boravišta</label>
+				<div class="check">
+				<br><input type="checkbox" class="zemlje" name="boraviste[]" value="Austrija">
+				<label>Austrija</label><br/>
+				<input type="checkbox" class="zemlje" name="boraviste[]" value="Francuska">
+				<label>Francuska</label><br/>
+				<input type="checkbox" class="zemlje" name="boraviste[]" value="Italija">
+				<label>Italija</label><br/>
+				<input type="checkbox" class="zemlje" name="boraviste[]" value="Sad">
+				<label>SAD</label><br/>
+				<input type="checkbox" class="zemlje" name="boraviste[]" value="Uk">
+				<label>UK</label><br/><br/><br/>
+				</div>
+			</div>
+			<div class="inputpolje">
+				<label>Obrazovanje</label>
+				<input type="text" class="input" name="obrazovanje">
+			</div>
+			<div class="inputpolje">
+				<label>Mjesto obrazovanja</label>
+				<input type="text" class="input" name="mjestoobraz">
+			</div>
+			<div class="inputpolje">
+				<label>Nagrada</label>
+				<input type="text" class="input" name="nagrada">
+			</div>
+			<div class="inputpolje">
+				<label>Godina dobitka nagrade</label>
+				<input type="text" class="input"  name="godnagrada">
+			</div>
+			<div class="inputpolje">
+				<label>Skulptura</label>
+				<input type="text" class="input" name="imeskulptura">
+			</div><br><br>
+			<div id="odustani">
+			 <input id ="gumb" type="reset" value="Odustani">
+			</div>
+			<div id ="pretrazi">
+			 <input id="gumb" type="submit" value="Pretraži">
+			</div>	
+		</form>
+		<p/>
+		<p/>
+	</main>
+	</div>
+</div>
+
+
+	<footer>
+	  <p>Izradila: Klara Banić &bull; Kontakt:<a href="mailto:klara.banic@fer.hr">
+	  klara.banic@fer.hr</a></p>
+	</footer>
+
+
+
+</body>

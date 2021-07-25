@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE podaci SYSTEM 'gramatika.dtd'>
+<?xml-stylesheet type="text/xsl" href="pretvorbapodaci.xsl"?>
+<podaci>
+	<kipar id="1" spol="m">
+		<wikiTitle>Ivan_Meštrović</wikiTitle>
+		<ime>Ivan</ime>
+		<prezime>Meštrović</prezime>
+		<slika></slika>
+		<mjesto/>
+		<najblizeMjesto>Vinkovci</najblizeMjesto>
+		<najblizeKoor/>
+		<koordinate/>
+		<ostalaZanimanja>
+			<zanimanje>arhitekt</zanimanje>
+			<zanimanje>slikar</zanimanje>
+			<zanimanje>književnik</zanimanje>
+		</ostalaZanimanja>
+		<datRod>15.8.1883.</datRod>
+		<mjestoRod pbr="35210">Vrpolje</mjestoRod>
+		<zemljeBoravista>
+			<boraviste>Austrija</boraviste>
+			<boraviste>Francuska</boraviste>
+			<boraviste>Italija</boraviste>
+			<boraviste>SAD</boraviste>
+		</zemljeBoravista>
+		<obrazovanje>
+			<institucija mjesto="Beč">Akademija likovnih umjetnosti</institucija>
+		</obrazovanje>
+		<nagrade>
+			<nagrada godina="1911">Prva nagrada za kiparstvo</nagrada>
+			<nagrada godina="1953">Annual Award of Merit</nagrada>
+			<nagrada godina="1955">Fine Arts Medal</nagrada>
+		</nagrade>
+		<stvaralastvo>
+			<kip>
+				<nazivKip>Povijest Hrvata</nazivKip>
+				<mjestoKip>Zagreb</mjestoKip>
+				<drzavaKip>Hrvatska</drzavaKip>
+			</kip>
+			<kip>
+				<nazivKip>Strijelac</nazivKip>
+				<mjestoKip>Chicago</mjestoKip>
+				<drzavaKip>SAD</drzavaKip>
+			</kip>
+			<kip>
+				<nazivKip>Spomenik Grgura Ninskog</nazivKip>
+				<mjestoKip>Split</mjestoKip>
+				<drzavaKip>Hrvatska</drzavaKip>
+			</kip>
+		</stvaralastvo>
+		<sazetak/>
+	</kipar>
+
+
+	<kipar id="2" spol="m">
+		<wikiTitle>Branko_Ružić</wikiTitle>
+		<ime>Branko</ime>
+		<prezime>Ružić</prezime>
+		<slika></slika>
+		<mjesto/>
+		<najblizeMjesto>Slavonski_Brod</najblizeMjesto>
+		<najblizeKoor/>
+		<koordinate/>
+		<ostalaZanimanja>
+			<zanimanje>slikar</zanimanje>
+			<zanimanje>profesor</zanimanje>
+		</ostalaZanimanja>
+		<datRod>4.3.1919.</datRod>
+		<mjestoRod pbr="35000">Slavonski Brod</mjestoRod>
+		<zemljeBoravista>
+			<boraviste>Francuska</boraviste>
+			<boraviste>Italija</boraviste>
+			<boraviste>UK</boraviste>
+		</zemljeBoravista>
+		<obrazovanje>
+			<institucija mjesto="Zagreb">Akademija likovnih umjetnosti</institucija>
+		</obrazovanje>
+		<nagrade>
+			<nagrada godina="1985">Nagrada za životno djelo Vladimir Nazor</nagrada>
+			<nagrada godina="1967 1972">Nagrada općine Rovinj</nagrada>
+			<nagrada godina="1968">Nagrada grada Zagreba</nagrada>
+		</nagrade>
+		<stvaralastvo>
+			<kip>
+				<nazivKip>Spomenik Moši Pijade</nazivKip>
+				<mjestoKip>Beograd</mjestoKip>
+				<drzavaKip>Srbija</drzavaKip>
+			</kip>
+			<kip>
+				<nazivKip>Skulptura „Ljudi“</nazivKip>
+				<mjestoKip>Osijek</mjestoKip>
+				<drzavaKip>Hrvatska</drzavaKip>
+			</kip>
+		</stvaralastvo>
+		<sazetak/>
+	</kipar>
+
+
+	<kipar id="3" spol="m">
+		<wikiTitle>Antun_Augustinčić</wikiTitle>
+		<ime>Antun</ime>
+		<prezime>Augustinčić</prezime>
+		<slika></slika>
+		<mjesto/>
+		<najblizeMjesto>Kumrovec</najblizeMjesto>
+		<najblizeKoor/>
+		<koordinate/>
+		<ostalaZanimanja>
+			<zanimanje>likovni pedagog</zanimanje>
+			<zanimanje>akademik</zanimanje>
+		</ostalaZanimanja>
+		<datRod>4.5.1900.</datRod>
+		<mjestoRod pbr="49290">Klanjec</mjestoRod>
+		<zemljeBoravista>
+			<boraviste>Francuska</boraviste>
+		</zemljeBoravista>
+		<obrazovanje>
+			<institucija mjesto="Zagreb">Visoka škola za umjetnost i obrt</institucija>
+			<institucija mjesto="Pariz">Akademija likovnih umjetnosti</institucija>
+		</obrazovanje>
+		<nagrade>
+			<nagrada godina="1961">Nagrada za životno djelo Vladimir Nazor</nagrada>
+			<nagrada godina="1954">Nagrada grada Zagreba</nagrada>
+		</nagrade>
+		<stvaralastvo>
+			<kip>
+				<nazivKip>Mir</nazivKip>
+				<mjestoKip>New York</mjestoKip>
+				<drzavaKip>SAD</drzavaKip>
+			</kip>
+			<kip>
+				<nazivKip>Spomenik osloboditeljima Niša</nazivKip>
+				<mjestoKip>Niš</mjestoKip>
+				<drzavaKip>Srbija</drzavaKip>
+			</kip>
+			<kip>
+				<nazivKip>Spomenik Seljačkoj buni</nazivKip>
+				<mjestoKip>Gornja Stubica</mjestoKip>
+				<drzavaKip>Hrvatska</drzavaKip>
+			</kip>
+		</stvaralastvo>
+		<sazetak/>
+	</kipar>
+	
+	<kipar id="4" spol="m">
+		<wikiTitle>Frano_Kršinić</wikiTitle>
+		<ime>Frano</ime>
+		<prezime>Kršinić</prezime>
+		<slika></slika>
+		<mjesto/>
+		<najblizeMjesto>Korčula</najblizeMjesto>
+		<najblizeKoor/>
+		<koordinate/>
+		<ostalaZanimanja>
+			<zanimanje>profesor</zanimanje>
+		</ostalaZanimanja>
+		<datRod>24.7.1897.</datRod>
+		<mjestoRod pbr="20263">Lumbarda</mjestoRod>
+		<zemljeBoravista>
+			<boraviste>Češka</boraviste>
+		</zemljeBoravista>
+		<obrazovanje>
+			<institucija mjesto="Hořice">Kiparsko-klesarska škola</institucija>
+			<institucija mjesto="Prag">Umjetnička akademija</institucija>
+		</obrazovanje>
+		<nagrade>
+			<nagrada godina="1962">Nagrada za životno djelo Vladimir Nazor</nagrada>
+			<nagrada godina="1956">Nagrada grada Zagreba</nagrada>
+		</nagrade>
+		<stvaralastvo>
+			<kip>
+				<nazivKip>Ribari</nazivKip>
+				<mjestoKip>Bakar</mjestoKip>
+				<drzavaKip>Hrvatska</drzavaKip>
+			</kip>
+			<kip>
+				<nazivKip>Spomenik Nikoli Tesli</nazivKip>
+				<mjestoKip>Novi Sad</mjestoKip>
+				<drzavaKip>Srbija</drzavaKip>
+			</kip>
+			<kip>
+				<nazivKip>Spomenik Emanuelu Vidoviću</nazivKip>
+				<mjestoKip>Split</mjestoKip>
+				<drzavaKip>Hrvatska</drzavaKip>
+			</kip>
+		</stvaralastvo>
+		<sazetak/>
+	</kipar>
+	
+	<kipar id="5" spol="m">
+		<wikiTitle>Nikola_Vučković</wikiTitle>
+		<ime>Nikola</ime>
+		<prezime>Vučković</prezime>
+		<slika></slika>
+		<mjesto/>
+		<najblizeMjesto>Makarska</najblizeMjesto>
+		<najblizeKoor/>
+		<koordinate/>
+		<ostalaZanimanja>
+			<zanimanje>slikar</zanimanje>
+			<zanimanje>profesor</zanimanje>
+		</ostalaZanimanja>
+		<datRod>5.1.1956.</datRod>
+		<mjestoRod pbr="20350">Metković</mjestoRod>
+		<zemljeBoravista>
+			<boraviste>Bosna i Hercegovina</boraviste>
+		</zemljeBoravista>
+		<obrazovanje>
+			<institucija mjesto="Sarajevo">Akademija likovnih umjetnosti</institucija>
+		</obrazovanje>
+		<nagrade>
+			<nagrada godina="1986">Nagrada Opuzenskog salona</nagrada>
+		</nagrade>
+		<stvaralastvo>
+			<kip>
+				<nazivKip>Spomenik poginulim braniteljima Domovinskog rata</nazivKip>
+				<mjestoKip>Ošlje</mjestoKip>
+				<drzavaKip>Hrvatska</drzavaKip>
+			</kip>
+			<kip>
+				<nazivKip>Spomenik žrtvama 2. svjetskog rata</nazivKip>
+				<mjestoKip>Neum</mjestoKip>
+				<drzavaKip>Bosna i Hercegovina</drzavaKip>
+			</kip>
+		</stvaralastvo>
+		<sazetak/>
+	</kipar>
+	
+</podaci>
+			
+		
+		
+		

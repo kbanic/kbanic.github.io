@@ -1,0 +1,32 @@
+<!ELEMENT podaci (kipar)*>
+
+<!ELEMENT kipar (wikiTitle, ime, prezime, ostalaZanimanja, datRod, mjestoRod, zemljeBoravista, obrazovanje, nagrade, stvaralastvo)>
+<!ATTLIST kipar id ID #REQUIRED>
+<!ATTLIST kipar spol (m|z) #REQUIRED>
+
+<!ELEMENT wikiTitle (#PCDATA)>
+<!ELEMENT slika (#PCDATA)>
+<!ELEMENT ime (#PCDATA)>
+<!ELEMENT prezime (#PCDATA)>
+<!ELEMENT ostalaZanimanja (zanimanje)*>
+<!ELEMENT zanimanje (#PCDATA)>
+<!ELEMENT datRod (#PCDATA)>
+<!ELEMENT mjestoRod (#PCDATA)>
+<!ATTLIST mjestoRod pbr CDATA #REQUIRED>
+<!ELEMENT zemljeBoravista (boraviste)*>
+<!ELEMENT boraviste (#PCDATA)>
+<!ELEMENT obrazovanje (institucija)*>
+<!ELEMENT institucija (#PCDATA)>
+<!ATTLIST institucija mjesto CDATA #REQUIRED>
+<!ELEMENT nagrade (nagrada)*>
+<!ELEMENT nagrada (#PCDATA)>
+<!ATTLIST nagrada godina CDATA #IMPLIED>
+<!ELEMENT stvaralastvo (kip)*>
+<!ELEMENT kip (nazivKip,mjestoKip,drzavaKip)>
+<!ELEMENT nazivKip (#PCDATA)>
+<!ELEMENT mjestoKip (#PCDATA)>
+<!ELEMENT drzavaKip (#PCDATA)>
+<!ELEMENT sazetak (#PCDATA)>
+<!ELEMENT mjesto (#PCDATA)>
+<!ELEMENT koordinate (#PCDATA)>
+
