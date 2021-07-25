@@ -1,1 +1,1 @@
-# kbanic.github.io
+Preview of the static webpage version of [Open Computing project - Web Application on the Croatian Most Famous Sculptors](https://github.com/kbanic/OR-Web-App) available on [kbanic.github.io](https://kbanic.github.io)
